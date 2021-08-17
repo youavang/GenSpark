@@ -46,6 +46,8 @@ public class Battleship {
                     break;
                 }
             }
+            gameBoard = updateGameBoard(gameBoard, coordinates, displayUpdate);
+            Display(gameBoard, water, ship);
         }
     }
 
